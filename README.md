@@ -1,31 +1,35 @@
 # Amazon
-an E-commerce Website built with MERN stack.
+An E-commerce Website built with MERN stack.
 
-## RUN 
-### docker-compose up --build
+## Run 
+> docker-compose up --build
 
 ## Test
-open the http://localhost:8000 and test the 
+> open the http://localhost:8000 and test the 
 
 ________________________________________________________
 
 ## NOTES
-### docker-compose.yaml 
+✨docker-compose.yaml✨
 It consists of different services web, mongo for the database and seeder to store the initial data in the mongodb
 
-### build: .
+✨build: .✨
 Takes the root folder and uses Dockerfile to build the webapp and starts the server
-### COPY --from=build /amazon/frontend/build ./backend/public
+```sh
+ COPY --from=build /amazon/frontend/build ./backend/public
+```
 frontend folder is not needed, hence the prod built files are considered and copied inside backend folder.
 Which in turn the server consumes the frontend build files in app.js
 
-if(process.env.NODE_ENV === "production") {
+```sh
+ if(process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, 'public')));
 
-    app.get('*', (req, res) =>
-        res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
-    );
-}
+   app.get('*', (req, res) =
+       res.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+   );
+ }
+```
 
 ________________________________________________________
 
