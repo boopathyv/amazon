@@ -47,56 +47,57 @@ ________________________________________________________
 
 ## Amazon Screenshots
 ### Login Page
-This is the Login Page of e-commerce website.
+This is the login screen of the e-commerce website, where users can enter their credentials to access their accounts.
 
 ![Login Screen](/frontend/build/images/screenshots/login_page.png)
 ________________________________________________________
 
 
 ### Home Page
-This is the Home Page of e-commerce website. It shows a list of products. 
+The home page displays a collection of available products for users to browse and purchase.
 
 ![Home Page](/frontend/build/images/screenshots/home_page.png)
 
 ________________________________________________________
 
 ### Admin Dashboard
-This is the Admin which provide options to add new products, delete existing products and to handle the users who can access the website
+The admin dashboard allows administrators to manage the website by adding or removing products and controlling user access.
 
 ![Admin Dashboard](/frontend/build/images/screenshots/admin_dashboard.png)
 ________________________________________________________
 
 ### Product List Screen
-This page list all the available products that are currently available which can be modified only by admin
+This screen shows all the products currently listed on the website. Only admins have the ability to modify the product list.
 
 ![Product List Screen](/frontend/build/images/screenshots/product_list.png)
 ________________________________________________________
 
 ### User List Screen
-This page list all the current users
+This page displays a list of all registered users on the platform.
 
 ![User List Screen](/frontend/build/images/screenshots/user_list.png)
 ________________________________________________________
 
 ### Product Details Page
-When the user clicks on a product it takes you to the product details page.
+When a user selects a product, they are redirected to this page, which provides detailed information about the item.
 
 ![Product Details](/frontend/build/images/screenshots/product_detail_page.png)
 ________________________________________________________
 
 ### Cart Detail Screen
-This page list all the products that are added to the cart
+This page shows all the products that have been added to the shopping cart by the user.
 
 ![Cart Details Screen](/frontend/build/images/screenshots/cart_detail_page.png)
 ________________________________________________________
 
 ### Shipping Detail Screen
+This page captures and displays the shipping address details required for delivery.
 
 ![Shipping Details Screen](/frontend/build/images/screenshots/shipping_details.png)
 ________________________________________________________
 
 ### Shipping Info Screen
-This page show the shipping details along with the list of products added to that order and total price to place the order
+This page summarizes the shipping information, including the items in the order and the total price, before the user places the order.
 
-![Shipping Info Screen](/frontend/build/images/screenshots/shipping_info_.png)
+![Shipping Info Screen](/frontend/build/images/screenshots/shipping_info.png)
 ________________________________________________________
