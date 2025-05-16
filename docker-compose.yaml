@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - '8000:8000'
+    environment:
+      - NODE_ENV=production
+      - MONGO_URI=mongodb://mongo:27017/amazon
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6
+    ports:
+      - "27017:27017"
+  
+  seeder:
+    build: .
+    depends_on:
+      - mongo
+    command: npm run seeder
