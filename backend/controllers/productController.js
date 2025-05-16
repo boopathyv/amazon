@@ -12,7 +12,6 @@ exports.getProducts = catchAsyncError(async (req, res, next)=>{
             req.query['price']['lte'] = parseInt(req.query['price']['lte'])
             req.query['price']['gte'] = parseInt(req.query['price']['gte'])
         }
-        console.log("query....", req.query)
         return new APIFeatures(Product.find(), req.query).search().filter()
     }
     
