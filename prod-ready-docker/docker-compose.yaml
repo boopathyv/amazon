@@ -1,0 +1,19 @@
+version: "3"
+services:
+  web:
+    image: myamazonapp:1.0
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+
+  seeder:
+    image: myamazonapp:1.0
+    depends_on:
+      - mongo
+    command: npm run seeder
