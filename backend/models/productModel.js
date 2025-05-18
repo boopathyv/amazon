@@ -44,14 +44,20 @@ const productSchema = new mongoose.Schema({
                 'Beauty/Health',
                 'Sports',
                 'Outdoor',
-                'Home'
+                'Home',
+                'Footwear',
+                'Beauty',
+                'Kitchen',
+                'Fashion',
+                'Workwear',
+                'Appliances'
             ],
             message : "Please select correct category"
         }
     },
     seller: {
         type: String,
-        required: [true, "Please enter product seller"]
+        required: [false, "Please enter product seller"]
     },
     stock: {
         type: Number,

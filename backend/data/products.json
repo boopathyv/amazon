@@ -1,117 +1,575 @@
 [
-    {
-        "name": "OPPO F21s Pro 5G",
-        "price": 245.67,
-        "description": "OPPO F21s Pro 5G is a powerful device with a RAM extension feature, that offers brilliant operational speed to users.",
-        "ratings": 4.5,
-        "images": [
-            {
-                "image": "/images/products/1.jpg"
-            },
-            {
-                "image": "/images/products/2.jpg"
-            }
-        ],
-        "category": "Mobile Phones",
-        "seller": "Amazon",
-        "stock": 5,
-        "numOfReviews": 15,
-        "reviews": []
-    },
-    {
-        "name": "WRISTIO HD, Bluetooth Calling Smart Watch",
-        "price": 150.32,
-        "description": "Minix watches are exclusively designed to fulfill the advanced tech needs of today’s generation.",
-        "ratings": 3.5,
-        "images": [
-            {
-                "image": "/images/products/2.jpg"
-            }
-        ],
-        "category": "Accessories",
-        "seller": "Flipkart",
-        "stock": 9,
-        "numOfReviews": 5,
-        "reviews": []
-    },
-    {
-        "name": "Dell Inspiron 3511 Laptop",
-        "price": 440.57,
-        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
-        "ratings": 2,
-        "images": [
-            {
-                "image": "/images/products/3.jpg"
-            }
-        ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
-        "reviews": []
-    },
-    {
-        "name": "Lenovo IdeaPad Slim 3 Laptop",
-        "price": 250.45,
-        "description": "Lenovo IdeaPad Slim 311th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8 Threads | 8 MB Cache",
-        "ratings": 4,
-        "images": [
-          {
-            "image": "/images/products/6.jpg"
-          }
-        ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
-        "reviews": []
-      },
-      {
-        "name": "ASUS VivoBook 15 Laptop",
-        "price": 767.32,
-        "description": "ASUS VivoBook 15 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
-        "ratings": 5,
-        "images": [
-          {
-            "image": "/images/products/7.jpg"
-          }
-        ],
-        "category": "Laptops",
-        "seller": "Ebay",
-        "stock": 9,
-        "numOfReviews": 12,
-        "reviews": []
-    },
-    {
-        "name": "PTron Newly Launched Tangent Sports, 60Hrs Playtime",
-        "price": 15.46,
-        "description": "Gigantic 60 + Hours of music playtime on a single charge; BT5.2 Wireless headphones with ENC (Environmental Noise Cancellation) Technology to enhance your voice quality over the voice calls",
-        "ratings": 5,
-        "images": [
-            {
-                "image": "/images/products/4.jpg"
-            }
-        ],
-        "category": "Headphones",
-        "seller": "Amazon",
-        "stock": 4,
-        "numOfReviews": 20,
-        "reviews": []
-    },
-    {
-        "name": "Campus Men's Maxico Running Shoes",
-        "price": 10.12,
-        "description": "The high raised back cover with extra padding.",
-        "ratings": 3,
-        "images": [
-            {
-                "image": "/images/products/5.jpg"
-            }
-        ],
-        "category": "Sports",
-        "seller": "Ebay",
-        "stock": 6,
-        "numOfReviews": 9,
-        "reviews": []
-    }
+  {
+    "id": 1,
+    "name": "Samsung 55\" QLED 4K TV",
+    "price": 899.99,
+    "description": "Quantum HDR, Smart TV with Alexa Built-in",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1593784991095-a205069470b6"},
+      {"image": "https://images.pexels.com/photos/12718845/pexels-photo-12718845.jpeg"}
+    ],
+    "stock": 15,
+    "ratings": 4.7
+  },
+  {
+    "id": 2,
+    "name": "LG 7kg Front Load Washer",
+    "price": 649.50,
+    "description": "AI Direct Drive, 6 Motion Technology",
+    "category": "Appliances",
+    "images": [
+      {"image": "https://images.pexels.com/photos/4700383/pexels-photo-4700383.jpeg"},
+      {"image": "https://images.pexels.com/photos/19237086/pexels-photo-19237086/free-photo-of-fashion-model-sitting-in-a-washing-machine.jpeg"}
+    ],
+    "stock": 8,
+    "ratings": 4.4
+  },
+  {
+    "id": 3,
+    "name": "Nike Air Max 270 (Men)",
+    "price": 129.99,
+    "description": "Breathable mesh running shoes",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"},
+      {"image": "https://images.pexels.com/photos/9537432/pexels-photo-9537432.jpeg"}
+    ],
+    "stock": 25,
+    "ratings": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Apple iPhone 14 Pro",
+    "price": 999.00,
+    "description": "6.1\" Super Retina XDR Display, 48MP Camera",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1664478546384-d57ffe74a78c"},
+      {"image": "https://images.pexels.com/photos/16004744/pexels-photo-16004744/free-photo-of-apple-iphone-14-pro-max-mobile-phone.jpeg"}
+    ],
+    "stock": 10,
+    "ratings": 4.9
+  },
+  {
+    "id": 5,
+    "name": "Adidas Originals T-Shirt",
+    "price": 29.99,
+    "description": "Cotton crewneck, slim fit",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.pexels.com/photos/9558699/pexels-photo-9558699.jpeg"}
+    ],
+    "stock": 50,
+    "ratings": 4.2
+  },
+  {
+    "id": 6,
+    "name": "Instant Pot Duo 7-in-1",
+    "price": 89.95,
+    "description": "Pressure cooker, slow cooker, rice cooker",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.pexels.com/photos/28054208/pexels-photo-28054208/free-photo-of-a-stove-with-two-pots-on-it-and-steam-coming-out-of-them.jpeg"},
+      {"image": "https://images.pexels.com/photos/6804584/pexels-photo-6804584.jpeg"}
+    ],
+    "stock": 18,
+    "ratings": 4.8
+  },
+  {
+    "id": 8,
+    "name": "Levi's 501 Original Jeans",
+    "price": 59.50,
+    "description": "Men's straight-fit jeans",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg"}
+    ],
+    "stock": 30,
+    "ratings": 4.3
+  },
+  {
+    "id": 9,
+    "name": "Dyson V11 Cordless Vacuum",
+    "price": 499.99,
+    "description": "60-minute runtime, LCD screen",
+    "category": "Appliances",
+    "images": [
+      {"image": "https://images.pexels.com/photos/4207785/pexels-photo-4207785.jpeg"}
+    ],
+    "stock": 7,
+    "ratings": 4.7
+  },
+  {
+    "id": 10,
+    "name": "KitchenAid Stand Mixer",
+    "price": 429.00,
+    "description": "5-quart, 10-speed",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1550583724-b2692b85b150"}
+    ],
+    "stock": 9,
+    "ratings": 4.9
+  },
+  {
+    "id": 26,
+    "name": "Bose QuietComfort 45 Headphones",
+    "price": 329.00,
+    "description": "Wireless noise-cancelling headphones with 24-hour battery",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1639754390580-2e7437267698"}
+    ],
+    "stock": 14,
+    "ratings": 4.8
+  },
+  {
+    "id": 27,
+    "name": "Calvin Klein Cotton Boxer Briefs (3-Pack)",
+    "price": 36.99,
+    "description": "Men's microfiber stretch underwear",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6764040/pexels-photo-6764040.jpeg"}
+    ],
+    "stock": 42,
+    "ratings": 4.4
+  },
+  {
+    "id": 28,
+    "name": "Ninja Foodi 8-in-1 Air Fryer",
+    "price": 179.99,
+    "description": "Pressure cooker and air crisper with 6.5qt capacity",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6804595/pexels-photo-6804595.jpeg"}
+    ],
+    "stock": 11,
+    "ratings": 4.7
+  },
+  {
+    "id": 29,
+    "name": "Ray-Ban Aviator Sunglasses",
+    "price": 153.00,
+    "description": "Classic G-15 lens, 55mm size",
+    "category": "Accessories",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083"}
+    ],
+    "stock": 23,
+    "ratings": 4.6
+  },
+  {
+    "id": 30,
+    "name": "Amazon Echo Dot (4th Gen)",
+    "price": 49.99,
+    "description": "Smart speaker with Alexa, Charcoal finish",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/5829904/pexels-photo-5829904.jpeg"}
+    ],
+    "stock": 37,
+    "ratings": 4.3
+  },
+  {
+    "id": 31,
+    "name": "Zojirushi Stainless Steel Water Bottle",
+    "price": 28.50,
+    "description": "20oz vacuum insulated, keeps hot/cold for hours",
+    "category": "Home",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6609457/pexels-photo-6609457.jpeg"}
+    ],
+    "stock": 29,
+    "ratings": 4.9
+  },
+  {
+    "id": 32,
+    "name": "Columbia Men's Watertight Jacket",
+    "price": 89.95,
+    "description": "Waterproof rain jacket with adjustable hood",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3"}
+    ],
+    "stock": 16,
+    "ratings": 4.5
+  },
+  {
+    "id": 33,
+    "name": "Anker PowerCore 20000 Power Bank",
+    "price": 45.99,
+    "description": "Portable charger with 20,000mAh capacity",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg"}
+    ],
+    "stock": 31,
+    "ratings": 4.7
+  },
+  {
+    "id": 35,
+    "name": "Fitbit Charge 5 Fitness Tracker",
+    "price": 149.95,
+    "description": "Heart rate monitor, GPS, and stress management",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg"}
+    ],
+    "stock": 18,
+    "ratings": 4.4
+  },
+  {
+    "id": 36,
+    "name": "Hanes Men's Crew Socks (10-Pack)",
+    "price": 16.99,
+    "description": "ComfortSoft cotton blend, assorted colors",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6634661/pexels-photo-6634661.jpeg"}
+    ],
+    "stock": 57,
+    "ratings": 4.2
+  },
+  {
+    "id": 38,
+    "name": "Logitech MX Master 3 Mouse",
+    "price": 99.99,
+    "description": "Wireless ergonomic mouse with precision scroll",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/3825519/pexels-photo-3825519.jpeg"}
+    ],
+    "stock": 13,
+    "ratings": 4.8
+  },
+  {
+    "id": 39,
+    "name": "Lululemon Align Yoga Pants",
+    "price": 98.00,
+    "description": "Women's high-rise leggings with buttery-soft fabric",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea"}
+    ],
+    "stock": 27,
+    "ratings": 4.9
+  },
+  {
+    "id": 40,
+    "name": "OXO Good Grips Salad Spinner",
+    "price": 29.99,
+    "description": "Push-button mechanism, BPA-free plastic",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6609457/pexels-photo-6609457.jpeg"}
+    ],
+    "stock": 34,
+    "ratings": 4.5
+  },
+  {
+    "id": 41,
+    "name": "Patagonia Nano Puff Jacket",
+    "price": 229.00,
+    "description": "Lightweight synthetic insulation, water-resistant",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9"}
+    ],
+    "stock": 8,
+    "ratings": 4.7
+  },
+  {
+    "id": 42,
+    "name": "Ring Video Doorbell Pro",
+    "price": 199.00,
+    "description": "1080p HD video, two-way talk, motion detection",
+    "category": "Home",
+    "images": [
+      {"image": "https://images.pexels.com/photos/5829904/pexels-photo-5829904.jpeg"}
+    ],
+    "stock": 19,
+    "ratings": 4.6
+  },
+  {
+    "id": 43,
+    "name": "Sony PlayStation 5 Controller",
+    "price": 69.99,
+    "description": "DualSense wireless controller, haptic feedback",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3"}
+    ],
+    "stock": 25,
+    "ratings": 4.8
+  },
+  {
+    "id": 44,
+    "name": "The North Face Backpack",
+    "price": 89.50,
+    "description": "28L capacity, laptop compartment, water-resistant",
+    "category": "Accessories",
+    "images": [
+      {"image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg"}
+    ],
+    "stock": 21,
+    "ratings": 4.5
+  },
+  {
+    "id": 46,
+    "name": "Yeti Rambler 20oz Tumbler",
+    "price": 29.99,
+    "description": "Double-wall vacuum insulation, stainless steel",
+    "category": "Home",
+    "images": [
+      {"image": "https://images.pexels.com/photos/6609457/pexels-photo-6609457.jpeg"}
+    ],
+    "stock": 41,
+    "ratings": 4.7
+  },
+  {
+    "id": 48,
+    "name": "8K HDMI Cable (6ft)",
+    "price": 19.99,
+    "description": "48Gbps bandwidth, gold-plated connectors",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/3568520/pexels-photo-3568520.jpeg"}
+    ],
+    "stock": 63,
+    "ratings": 4.1
+  },
+  {
+    "id": 49,
+    "name": "Bamboo Cutting Board Set",
+    "price": 34.95,
+    "description": "3-piece set with juice groove, non-slip feet",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8"}
+    ],
+    "stock": 28,
+    "ratings": 4.6
+  },
+  {
+    "id": 50,
+    "name": "Coleman Sundome 4-Person Tent",
+    "price": 129.99,
+    "description": "Weatherproof camping tent with rainfly",
+    "category": "Outdoor",
+    "images": [
+      {"image": "https://images.pexels.com/photos/699558/pexels-photo-699558.jpeg"}
+    ],
+    "stock": 11,
+    "ratings": 4.4
+  },
+  {
+    "id": 52,
+    "name": "Adidas Ultraboost 22 Running Shoes",
+    "price": 179.99,
+    "description": "Women's responsive running shoes with Primeknit+",
+    "category": "Footwear",
+    "images": [
+      {"image": "https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg"}
+    ],
+    "stock": 22,
+    "ratings": 4.7,
+    "brand": "Adidas"
+  },
+  {
+    "id": 53,
+    "name": "Dyson Supersonic Hair Dryer",
+    "price": 429.00,
+    "description": "Professional hair dryer with intelligent heat control",
+    "category": "Beauty",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1"}
+    ],
+    "stock": 9,
+    "ratings": 4.9,
+    "brand": "Dyson"
+  },
+  {
+    "id": 54,
+    "name": "KitchenAid 5-Speed Hand Mixer",
+    "price": 79.99,
+    "description": "220-watt motor with 5-speed slide control",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.pexels.com/photos/4207785/pexels-photo-4207785.jpeg"}
+    ],
+    "stock": 31,
+    "ratings": 4.5,
+    "brand": "KitchenAid"
+  },
+  {
+    "id": 56,
+    "name": "Levi's Women's 721 High Rise Skinny Jeans",
+    "price": 69.50,
+    "description": "Mid-weight stretch denim with 27\" inseam",
+    "category": "Fashion",
+    "images": [
+      {"image": "https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg"}
+    ],
+    "stock": 27,
+    "ratings": 4.4,
+    "brand": "Levi's"
+  },
+  {
+    "id": 57,
+    "name": "Ninja BL660 Professional Blender",
+    "price": 89.99,
+    "description": "1100-watt base with 72oz total crushing pitcher",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1563213126-a4273aed2016"}
+    ],
+    "stock": 16,
+    "ratings": 4.7,
+    "brand": "Ninja"
+  },
+  {
+    "id": 58,
+    "name": "Fossil Gen 6 Smartwatch",
+    "price": 299.00,
+    "description": "44mm stainless steel case with heart rate tracking",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg"}
+    ],
+    "stock": 11,
+    "ratings": 4.3,
+    "brand": "Fossil"
+  },
+  {
+    "id": 59,
+    "name": "Columbia Women's Arcadia II Jacket",
+    "price": 79.99,
+    "description": "Water-resistant breathable rain jacket",
+    "category": "Outdoor",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9"}
+    ],
+    "stock": 19,
+    "ratings": 4.5,
+    "brand": "Columbia"
+  },
+  {
+    "id": 60,
+    "name": "JBL Flip 6 Portable Speaker",
+    "price": 129.95,
+    "description": "Waterproof Bluetooth speaker with 12-hour battery",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/3944104/pexels-photo-3944104.jpeg"}
+    ],
+    "stock": 23,
+    "ratings": 4.6,
+    "brand": "JBL"
+  },
+  {
+    "id": 62,
+    "name": "Brooks Ghost 14 Running Shoes",
+    "price": 139.95,
+    "description": "Men's neutral running shoes with DNA Loft cushioning",
+    "category": "Footwear",
+    "images": [
+      {"image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"}
+    ],
+    "stock": 15,
+    "ratings": 4.7,
+    "brand": "Brooks"
+  },
+  {
+    "id": 63,
+    "name": "Bose SoundLink Revolve+ II",
+    "price": 299.00,
+    "description": "360-degree portable Bluetooth speaker",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb"}
+    ],
+    "stock": 12,
+    "ratings": 4.8,
+    "brand": "Bose"
+  },
+  {
+    "id": 66,
+    "name": "Garmin Forerunner 245 Music",
+    "price": 299.99,
+    "description": "GPS running watch with music storage",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg"}
+    ],
+    "stock": 13,
+    "ratings": 4.7,
+    "brand": "Garmin"
+  },
+  {
+    "id": 67,
+    "name": "Patagonia Better Sweater Fleece Jacket",
+    "price": 139.00,
+    "description": "Men's 100% recycled polyester fleece",
+    "category": "Outdoor",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1551232864-3f0890e580d9"}
+    ],
+    "stock": 21,
+    "ratings": 4.8,
+    "brand": "Patagonia"
+  },
+  {
+    "id": 68,
+    "name": "Samsung T7 Portable SSD (1TB)",
+    "price": 129.99,
+    "description": "USB 3.2 Gen 2 with 1050MB/s transfer speeds",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/3825519/pexels-photo-3825519.jpeg"}
+    ],
+    "stock": 25,
+    "ratings": 4.9,
+    "brand": "Samsung"
+  },
+  {
+    "id": 70,
+    "name": "New Balance Fresh Foam 1080v11",
+    "price": 149.99,
+    "description": "Men's cushioned running shoes",
+    "category": "Footwear",
+    "images": [
+      {"image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"}
+    ],
+    "stock": 18,
+    "ratings": 4.6,
+    "brand": "New Balance"
+  },
+  {
+    "id": 73,
+    "name": "Breville Barista Express Espresso Machine",
+    "price": 699.95,
+    "description": "Semi-automatic with built-in conical burr grinder",
+    "category": "Kitchen",
+    "images": [
+      {"image": "https://images.unsplash.com/photo-1563213126-a4273aed2016"}
+    ],
+    "stock": 5,
+    "ratings": 4.9,
+    "brand": "Breville"
+  },
+  {
+    "id": 74,
+    "name": "ASUS ROG Zephyrus G14 Laptop",
+    "price": 1299.99,
+    "description": "14\" 120Hz gaming laptop with Ryzen 9 processor",
+    "category": "Electronics",
+    "images": [
+      {"image": "https://images.pexels.com/photos/18105/pexels-photo.jpg"}
+    ],
+    "stock": 6,
+    "ratings": 4.8,
+    "brand": "ASUS"
+  }
 ]

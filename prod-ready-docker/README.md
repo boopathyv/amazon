@@ -18,7 +18,7 @@ You can export the image to a .tar file: Use this .tar file to ship to the custo
 A)
 On the customer’s side:
 
->docker load -i myamazonapp.tar
+> docker load -i myamazonapp.tar
 
 This will import the image as myamazonapp:1.0.
 
